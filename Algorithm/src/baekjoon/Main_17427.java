@@ -21,6 +21,7 @@ public class Main_17427 {
 		
 		System.out.println(sum);
 		
+		sc.close();
 	
 	}
 
