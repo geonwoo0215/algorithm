@@ -22,7 +22,7 @@ public class Main_2609 {
 		
 		
 		System.out.printf("%d\n%d",gcd,lcm);
-		
+		sc.close();
 		
 	}
 
