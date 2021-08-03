@@ -17,7 +17,7 @@ public class Main_1978 {
 		}
 		
 		
-		for(int i=2;i<arr.length;i++) {
+		for(int i=2;i*i<arr.length;i++) {
 			if(arr[i]==true) {
 				for(int j=i;i*j<arr.length;j++) {
 					arr[i*j]=false;
