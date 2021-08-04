@@ -20,6 +20,7 @@ public class Main_1476 {
 			if(m>19) m=1;
 		}
 		System.out.println(count);
+		sc.close();
 
 	}
 
