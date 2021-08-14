@@ -34,6 +34,7 @@ public class Main_11053 {
 		
 		System.out.println(max);
 		sc.close();
+		
 	}
 	
 	public static int Lis(int n) {
