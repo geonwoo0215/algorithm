@@ -20,7 +20,7 @@ public class Main_11053 {
 		for(int i=0;i<n;i++) {
 			arr[i]=sc.nextInt();
 		}
-		
+	
 		
 		for(int i=0;i<n;i++) {
 			Lis(i);
