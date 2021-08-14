@@ -25,6 +25,7 @@ public class Main_11053 {
 		for(int i=0;i<n;i++) {
 			Lis(i);
 		}
+		
 		int max=dp[0];
 		
 		for(int i=1;i<n;i++) {
