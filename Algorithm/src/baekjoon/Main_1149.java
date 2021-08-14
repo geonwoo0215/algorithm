@@ -31,6 +31,8 @@ public class Main_1149 {
 		
 		System.out.println(Math.min((Math.min(pr[num-1][0],pr[num-1][1])),pr[num-1][2]));
 		
+		sc.close();
+		
 	}
 
 }

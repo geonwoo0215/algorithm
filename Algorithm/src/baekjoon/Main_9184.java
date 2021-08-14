@@ -5,30 +5,13 @@ import java.util.*;
 
 
 
-public class Main_9184 {	static int[][][] dp =new int[21][21][21];
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-
-
-		while(true) {
-			int a = sc.nextInt();
-			int b = sc.nextInt();
-			int c = sc.nextInt();
-			if(a==-1&&b==-1&&c==-1) return;
-			else {
-				System.out.printf("w(%d, %d, %d) = %d\n",a,b,c,w(a,b,c));
-			}
-		}
-
-
-	}
-
-
+public class Main_9184 {	
+	static int[][][] dp =new int[21][21][21];
 
 	static int w (int a, int b, int c) {
-		
+
 		// 코드가 더럽다. 값이 저장되있는것을 종합하여 한번에 확인하는 함수를 만들어 반환시키도록한다.
-		
+
 		if(a<=0||b<=0||c<=0) return 1;
 
 
@@ -72,7 +55,30 @@ public class Main_9184 {	static int[][][] dp =new int[21][21][21];
 		}
 
 	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+
+		while(true) {
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			int c = sc.nextInt();
+			if(a==-1&&b==-1&&c==-1) return;
+			else {
+				System.out.printf("w(%d, %d, %d) = %d\n",a,b,c,w(a,b,c));
+			}
+		}
+
+
+
+	}
+	
 }
+
+
+
+	
+
 
 
 
