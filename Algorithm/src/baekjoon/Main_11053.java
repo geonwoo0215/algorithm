@@ -30,7 +30,6 @@ public class Main_11053 {
 		for(int i=1;i<n;i++) {
 			max=Math.max(max,dp[i]);
 		}
-
 		
 		System.out.println(max);
 		sc.close();
