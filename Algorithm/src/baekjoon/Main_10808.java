@@ -24,6 +24,7 @@ public class Main_10808 {
 		
 		for(int i=0;i<Alphabet.length;i++) {
 			System.out.printf("%d ",Alphabet[i]);
+			
 		}
 	}
 }
