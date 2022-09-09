@@ -1,3 +1,5 @@
+package string;
+
 public class next_number {
     public int solution(int n) {
 
